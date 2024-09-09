@@ -16,5 +16,6 @@
     "url": " npm install socket.io --save"
   },
   "author": "khlaid",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": []
 }
