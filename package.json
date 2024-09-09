@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "express": "^4.19.2",
+    "nodemon": "^3.1.4",
     "socket.io": "^4.7.5"
   },
   "name": "socketio",
@@ -12,9 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": " npm install socket.io --save"
+    "url": "git@github.com:Khalid-Siddiqi/Socket.io.git"
   },
   "author": "khlaid",
   "license": "ISC",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
