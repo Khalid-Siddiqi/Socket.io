@@ -31,7 +31,6 @@ tech.on('connection', (socket) => {
         socket.join(data.room);
         tech.in(data.room).emit('message', `New user joined ${data.room} room!`);
     })
-
     socket.on('message', (data) => {
         console.log(`message: ${data.msg}`);
         tech.in(data.room).emit('message', data.msg);
